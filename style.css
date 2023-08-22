@@ -1,0 +1,65 @@
+body
+{
+    background-color: aqua;
+}
+
+.container
+{  
+  
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+
+}
+
+.bigbox
+{
+  border: 10px solid burlywood;
+  background-color: beige;
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigbox h1
+{
+ 
+  margin-top: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+  align-items: center;
+  color: rgb(67, 65, 65);
+  display: flex;
+  
+}
+
+.bigbox h2
+{
+  justify-content: center;
+  display: flex;
+  color: rgb(67, 65, 65);
+}
+
+.btn
+{
+  position: absolute;
+  justify-content: center;
+  align-self: last baseline;
+
+  /* color */
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+
+  /* shape */
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  height: 30px;
+}
